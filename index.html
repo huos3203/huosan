@@ -32,6 +32,18 @@
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-51742113-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -519,8 +531,50 @@ var duoshuoQuery = {short_name:"huo3203"};
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/huos3203">@huos3203</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'huos3203',
+            count: 3,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/huosan/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
+
+
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-51742113-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 
   
@@ -545,6 +599,20 @@ var duoshuoQuery = {short_name:"huo3203"};
 
 
 
+
+<!-- 
+ 百度统计：huos3203.github.io
+1、 请将代码添加至网站全部页面的</body>标签前，如您还使用了其他统计软件，请将百度统计代码放在其他代码之前；
+2、 建议在footer.html类似的页尾模板页面中安装，以达到一处安装，全站皆有的效果；
+3、 如需在JS文件中调用统计分析代码，请直接去掉以下代码首尾的<script type="text/javascript">与</script>后，放入JS文件中即可；
+4、 若网站为框架式网站，请在框架集页面和子框架页面均安装统计代码，框架集页面中，请安装在</head>标签前；
+5、 如果代码安装正确，一般20分钟 后,可以查看网站分析数据；
+6、 刚安装后可能暂时出现浏览器缓存问题导致的统计误差
+-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb4a2528a681e2f23855d15a4de0abfc2' type='text/javascript'%3E%3C/script%3E"));
+</script>
 
 </body>
 </html>
