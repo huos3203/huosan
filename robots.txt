@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://huos3203.github.io/huosan/sitemap.xml 
