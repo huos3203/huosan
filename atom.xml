@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[布衣男儿]]></title>
   <link href="http://huos3203.github.io/huosan/atom.xml" rel="self"/>
   <link href="http://huos3203.github.io/huosan/"/>
-  <updated>2014-06-08T14:27:06+08:00</updated>
+  <updated>2014-06-08T15:48:50+08:00</updated>
   <id>http://huos3203.github.io/huosan/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[三剑客品JAVA]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -151,7 +151,7 @@
 <pre><code>  &lt;!-- Duoshuo Comment BEGIN --&gt;
   &lt;div class="ds-thread" data-title=""&gt;&lt;/div&gt;
   &lt;script type="text/javascript"&gt;
-    var duoshuoQuery = {short_name:""};
+    var duoshuoQuery = {short_name:"huo3203"};
     (function() {
       var ds = document.createElement('script');
       ds.type = 'text/javascript';
@@ -195,16 +195,16 @@
 <pre><code>  &lt;section&gt;
   &lt;h1&gt;Recent Comments&lt;/h1&gt;
   &lt;ul class="ds-recent-comments"
-   data-num-items=""
-    data-show-avatars=""
-     data-show-time=""
-      data-show-title=""
-       data-show-admin="" 
-       data-excerpt-length=""&gt;&lt;/ul&gt;
+   data-num-items="10"
+    data-show-avatars="0"
+     data-show-time="0"
+      data-show-title="0"
+       data-show-admin="0" 
+       data-excerpt-length="18"&gt;&lt;/ul&gt;
   { % if index % }
   &lt;!-- 多说js加载开始，一个页面只需要加载一次 --&gt;
           &lt;script type="text/javascript"&gt;
-            var duoshuoQuery = {short_name:""};
+            var duoshuoQuery = {short_name:"huo3203"};
             (function() {
               var ds = document.createElement('script');
               ds.type = 'text/javascript';
