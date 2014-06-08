@@ -2,19 +2,23 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://huos3203.github.io/huosan/blog/2014/06/08/myfirstoctopress/</loc>
-        <lastmod>2014-06-08T15:14:26+08:00</lastmod>
+        <lastmod>2014-06-08T18:43:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://huos3203.github.io/huosan/blog/2014/06/08/jin-tian-da-yu/</loc>
-        <lastmod>2014-06-08T15:14:26+08:00</lastmod>
+        <lastmod>2014-06-08T18:24:35+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://huos3203.github.io/huosan/about/</loc>
+        <lastmod>2014-06-08T19:20:30+08:00</lastmod>
     </url>
     <url>
         <loc>http://huos3203.github.io/huosan/blog/archives/</loc>
-        <lastmod>2014-06-08T14:26:16+08:00</lastmod>
+        <lastmod>2014-06-08T18:43:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://huos3203.github.io/huosan/</loc>
-        <lastmod>2014-06-08T14:26:16+08:00</lastmod>
+        <lastmod>2014-06-08T18:43:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://huos3203.github.io/huosan/robots.txt</loc>

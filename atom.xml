@@ -4,11 +4,11 @@
   <title><![CDATA[布衣男儿]]></title>
   <link href="http://huos3203.github.io/huosan/atom.xml" rel="self"/>
   <link href="http://huos3203.github.io/huosan/"/>
-  <updated>2014-06-08T17:43:26+08:00</updated>
+  <updated>2014-06-08T19:48:51+08:00</updated>
   <id>http://huos3203.github.io/huosan/</id>
   <author>
     <name><![CDATA[三剑客品JAVA]]></name>
-    
+    <email><![CDATA[724987481@qq.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -36,6 +36,9 @@
 <li><strong>Mou</strong>:MarkDown编辑软件，可用于后期发布博客文章。<a href="http://mouapp.com/">下载</a></li>
 <li><strong>Xcode</strong>：它将帮助你安装好Unix环境需要的开发包。</li>
 </ol>
+
+
+<!-- more -->
 
 
 <h4>学习目的：</h4>
